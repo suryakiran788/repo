@@ -14,6 +14,7 @@ pipeline {
             node(label: 'asdfgh') {
               sh '''
 ls -l'''
+              echo 'haiiiiii'
             }
 
           }
